@@ -134,7 +134,7 @@ export default function Album({location}) {
                   </Button>
                   </Grid>
                   <Grid item>
-                    <Button variant="outlined" color="primary" component={link} to="https://github.com/GauravPandey1898/BreakingSaul">
+                    <Button variant="outlined" color="primary"  href="https://github.com/GauravPandey1898/BreakingSaul">
                       Source Code For This Site
                   </Button>
                   </Grid>

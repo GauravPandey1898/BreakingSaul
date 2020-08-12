@@ -6,6 +6,8 @@ import Homepage from '../Homepage/Homepage'
 
 import Directory from '../directory/directory'
 
+import notFound from '../notFound/notFound'
+
 function App()
 {
     return(
@@ -14,6 +16,7 @@ function App()
                 <Route exact path='/' component={Directory} />
                 
                 <Route exact path='/info' component={Homepage} />
+                <Route path='*' component={notFound} />
                 
             </Switch>
         </Router>
