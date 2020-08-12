@@ -1,0 +1,114 @@
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    height: 100%;
+    width: 10%;
+}
+
+.left{
+    left: 0;
+    background-color: rgba(red, green, blue, alpha);
+    background-image: url(../assests/BetterCallSoul.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
+}
+.left:before{
+    
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+
+}
+.parent:hover .left,
+.parent:focus .left {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.parent:hover .left:before, .parent:focus .left:before {
+    display: block;
+}
+
+.right{
+    right: 0;
+    background-color: rgba(red, green, blue, alpha);
+    background-image: url(../assests/BreakingBad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.right:before{
+    
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(52,73,94,0.75);
+    
+}
+
+.parent:hover .right,
+.parent:focus .right {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.parent:hover .right:before, .parent:focus .right:before {
+    display: block;
+}
+
+
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10% ;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading{
+    padding-top: 20%;
+
+}
+.bcl{
+    margin-top: 2rem;
+}
+
+.centered img{
+    width: 50%;
+
+    border-radius: 10%;
+}
