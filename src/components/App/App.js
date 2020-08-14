@@ -15,7 +15,7 @@ function App()
             <Switch>
                 <Route exact path='/' component={Directory} />
                 
-                <Route exact path='/info' component={Homepage} />
+                <Route path='/info' component={Homepage} />
                 <Route path='*' component={notFound} />
                 
             </Switch>
